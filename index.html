@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Kuisoner Minay Kodein Club</h1>
+      <p>Bantu Kami mahami minat anda,</p>
+    </header>
+
+    <main>
+      <form>
+        <!-- INPUT NAMA -->
+        <div class="form-group">
+          <label for="name">Nama</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="masukin nama njay"
+            required
+          />
+        </div>
+        <!-- email -->
+        <div class="form-group">
+          <label for="name">email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="masukin nama njay"
+            required
+          />
+        </div>
+        <!-- pilih -->
+        <div class="form-group">
+          <p>silahkan pilih minat anda</p>
+          <select name="minat" id="minat">
+            <option disabled selected value>pilih</option>
+            <option value="programing">programing</option>
+            <option value="multimedia">multimedia</option>
+            <option value="iot">IoT</option>
+            <option value="robotik">robotit</option>
+          </select>
+        </div>
+
+        <!-- sosial media -->
+        <div class="form-group form-control">
+            <p>silahkan pilih minat anda</p>
+            <div class="sosmed">
+           <input type="radio" id="teman">
+           <label for="teman">Teman</label>
+           </div>
+           <div class="sosmed">
+            <input type="radio" id="teman">
+            <label for="teman">Teman</label>
+            </div>
+            <div class="sosmed">
+              <input type="radio" id="teman">
+              <label for="teman">Teman</label>
+              </div>
+          </div>
+        <!-- tambahkan input text area -->
+        <button type="button">kirim</button>
+      </form>
+    </main>
+  </body>
+</html>
